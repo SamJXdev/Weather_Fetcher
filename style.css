@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items:center;
+    justify-content: space-evenly;
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-Desktop-Wallpapers.jpg);
+    
+}
+
+.a{
+    background-color: lightblue;
+    padding:50px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 25px rgb(0, 255, 251);
+}
+
+.input_area{
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.b{
+    background-color: lightblue;
+    padding:100px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 25px rgb(96, 183, 25);
+
+}
+
+.heading{
+    background-color: royalblue;
+    color:lightblue;
+    border-radius: 60px;
+    padding: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 0 35px red;
+}
+
+
+.parameter{
+    color:white;
+    box-shadow: 0 0 20px blue;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn{
+    background-color: silver;
+    font-size: 35px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
