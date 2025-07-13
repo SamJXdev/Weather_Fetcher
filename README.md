@@ -154,7 +154,8 @@ btn.addEventListener("click", async () => {
 
         const data = await response.json();
         updateWeather(data);
-    } catch (error) {
+    }
+catch (error) {
         alert(error.message);
         console.error("Error: ", error);
     }
@@ -171,9 +172,11 @@ function updateWeather(data) {
 ```
 
 ## Live web page:
+https://samjxdev.github.io/Weather_Fetcher/
 
 ## Output:
-![Uploading image.png…]()
+<img width="1919" height="976" alt="image" src="https://github.com/user-attachments/assets/9a8c043b-7b3e-4d26-b0f1-73acc9f3a99a" />
+
 
 ## Result:
 A mini module that successfully uses Promises and async/await to handle real-time API data, reinforcing asynchronous JavaScript patterns in a practical context.
