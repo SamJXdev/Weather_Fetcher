@@ -169,8 +169,11 @@ function updateWeather(data) {
     conditionPara.innerHTML = `Condition ☁️: ${condition}`;
 }
 ```
-## Output:
 
+## Live web page:
+
+## Output:
+![Uploading image.png…]()
 
 ## Result:
 A mini module that successfully uses Promises and async/await to handle real-time API data, reinforcing asynchronous JavaScript patterns in a practical context.
