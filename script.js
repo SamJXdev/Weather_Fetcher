@@ -18,14 +18,14 @@ btn.addEventListener("click", async () => {
         );
         
         if (!response.ok) {
-            throw new Error("City not found. Please try again!");
+            throw new Error("City not found");
         }
 
         const data = await response.json();
         updateWeather(data);
     } catch (error) {
         alert(error.message);
-        console.error("Error fetching weather:", error);
+        console.error("Error: ", error);
     }
 });
 
